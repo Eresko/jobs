@@ -1,0 +1,69 @@
+.block_calendar {
+    width: 90%; /* Ширина элемента в пикселах */
+    height: 90%;
+    padding: 2px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    background: #fc0; /* Цвет фона */
+    margin-top: 100px;
+}
+.month {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.cal {
+    padding: 2px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.week {
+    list-style-type: none;
+    display: inline-block;
+    width: 19.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+.day {
+   width: 100%;
+   height: 14.14%;
+}
+.day:hover {
+    background: #ffcc00;
+    cursor: pointer;
+}
+.data {
+    text-align: -webkit-right;
+    font-size: 20px;
+    color: black;
+}
+.nonmonth {
+    color: #777777;
+
+}
+.modal_okno1 {
+    display:none;
+    position: absolute;
+}
+.modal_okno2 {
+    background: #777777;
+    display:inline;
+    position: absolute  ;
+    top: 30%;
+    left: 40%;
+}
+.head_modal {
+ background: #ffcc00;
+}
+.head_modal:hover {
+    cursor: pointer;
+}
+.btn {
+    width: 100%;
+}
+.btn:hover {
+    cursor: pointer;
+}
