@@ -73,7 +73,7 @@ $(document).on('click', '[data-head-modal]', function () {
 
 });
 
-
+/*
 $(document).on('click', '[data-knopka]', function () {
     let x = 20;
     let y = 30;
@@ -82,3 +82,4 @@ $(document).on('click', '[data-knopka]', function () {
     alert(z);
 
 });
+*/
